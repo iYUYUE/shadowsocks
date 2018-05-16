@@ -21,6 +21,7 @@ class Speedtest(object):
         if self.event.wait(600):
             return
 
+        
         logging.info("Speedtest starting...You can't stop right now!")
         CTid = 0
         speedtest_ct = speedtest.Speedtest()
