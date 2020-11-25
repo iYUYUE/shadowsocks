@@ -814,6 +814,7 @@ class Speedtest(object):
                                           'be int' % s)
 
         urls = [
+            'http://api.iyuyue.net/speedtest-servers-china.php',
             '://www.speedtest.net/speedtest-servers-static.php',
             'http://c.speedtest.net/speedtest-servers-static.php',
             '://www.speedtest.net/speedtest-servers.php',
